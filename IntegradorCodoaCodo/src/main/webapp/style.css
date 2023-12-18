@@ -1,0 +1,85 @@
+.transpbox{
+    background-color: #000;
+    border: none;
+    opacity: 0.5;
+}
+#imagen_texto{
+    border: none;
+    border-radius: 0%;
+
+}
+.carousel-item img {
+    filter: brightness(0.7); /* Cambia el valor para ajustar la opacidad */
+  }
+  
+
+#comprar{
+    color: white;
+    background-color: rgb(50, 194, 50);
+}
+
+.card-text{
+    margin-top: 20px;
+}
+.image-txt {
+    z-index: 1;
+    position: relative;
+    margin-top: 8%;
+    padding-right: 5%;
+}
+
+.subrayado{
+    text-decoration-style: dotted;
+}
+
+#totales{
+    color: blue;
+}
+
+
+#formButton, #formSummary, #formErase{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(150, 194, 29);
+}
+
+#formSummary, #formErase{
+    width: 48.5%;
+}
+
+
+#footer {
+    background: linear-gradient(to right, #023047, #023047, #005f73);
+    width: 100%;
+}
+
+.option, .discount{
+    font-weight: bold;
+}
+/* Tamaño de fuente base */
+body {
+    font-size: 16px;
+  }
+  
+  /* Cambiar el tamaño de fuente en dispositivos móviles */
+  @media (max-width: 576px) {
+    body {
+      font-size: 11px;
+    }
+  }
+  
+  /* Cambiar el tamaño de fuente en tabletas */
+  @media (min-width: 577px) and (max-width: 768px) {
+    body {
+      font-size: 15px;
+    }
+  }
+  
+  /* Cambiar el tamaño de fuente en pantallas más grandes */
+  @media (min-width: 769px) {
+    body {
+      font-size: 20px;
+    }
+  }
+  
+  
